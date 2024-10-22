@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #e7e7e7;
+}
+
+.container {
+    width: 780px;
+    padding: 35px 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #000;
+}

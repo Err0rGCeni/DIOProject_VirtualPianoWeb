@@ -1,0 +1,21 @@
+header {
+    color: #b2b2b2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & h1 {
+        font-size: 1.6rem;
+    }
+
+    & .column {
+        display: flex;
+        align-items: center;
+
+        & label {
+            font-weight: 500;
+            margin-right: 15px;
+            font-size: 1.20rem;
+        }
+    }
+}

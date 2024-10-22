@@ -1,0 +1,31 @@
+.keys-check input {
+    width: 60px;
+    height: 40px;
+    appearance: none;
+    border-radius: 30px;
+    background-color: #555555;
+    cursor: pointer;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        top: 10px;
+        left: 10px;
+        background-color: #AAA;
+        border-radius: 50%;
+        transition: all 0.2s;
+    }
+
+    &:checked::before {
+        content: "";
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        left: 30px;
+        background-color: #FFF;
+        border-radius: 50%;
+    }
+}
